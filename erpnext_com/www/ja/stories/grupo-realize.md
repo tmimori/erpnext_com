@@ -51,7 +51,7 @@ assim é ERPNext, transformando as dificuldades e transtornos do dia-a-dia da
 gestão em uma tarefa simples, gratificante e acima de tudo produtiva.
 
 > [日本語訳]
-ペレが芸術的な足運びでらくらくボールを動かすように、ERPNextも、日々の管理の困難混乱をシンプルな、価値ある生産的なタスクに変えてくれます。
+ペレが芸術的な足運びでらくらくボールを動かすように、ERPNextも、日々の管理の困難・混乱をシンプルで価値ある生産的なタスクに変えてくれます。
 
 ![](http://frappe.io/files/realize_logo.png)
 

@@ -9,7 +9,7 @@
 
 Fritzingのビジネスとオープンソース哲学について、COO（最高執行責任者）Amin Zayaniさんにインタビューしました。彼は2012にERPNextを見つけ、製造、在庫、サポート、販売、請求の管理に導入しました。彼は熱心なサポーターであり、重要なフォーラムを紹介してくれています。
 
-AminさんはMITの「オープンハードウェアサミット」に参加しまし、そこでFritzingとERPNextの要点を展示しました。
+AminさんはMITの「オープンハードウェアサミット」に参加し、そこでFritzingとERPNextの要点を展示しました。
 
 ![](/assets/erpnext_com/images/stories/fritzing-ohs.png)
 

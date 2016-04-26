@@ -11,15 +11,12 @@
 <p>VirtualBoxに .ova ファイルをインポートします。
 ほとんどのユーザーにとっては、初期設定で問題ありませんが、パフォーマンスに問題がある場合は変更が必要かもしれません。
 </p>
-<p>ゲストOSには Debian GNU/Linux 7 を使用します。</p>
+<p>ゲストOSには Ubuntu 14.04 を使用します。</p>
 <p>イメージ内の初期アカウントは次の通りです：</p>
 <ul>
-    <li>username: erpnext</li>
-    <li>password: erpnext</li>
-    <li>mysql root password: erpnext</li>
-    <li>root password: erpnext</li>
-    <li>erpnext database name: erpnext</li>
-    <li>erpnext database password: erpnext</li>
+  <li>username: frappe</li>
+  <li>password: frappe</li>
+  <li>mysql root password: frappe</li>
 </ul>
 <p>VM起動後、ホストOSのブラウザにて次のURLにアクセスします：</p>
 <ul>
@@ -33,11 +30,11 @@
 <hr>
 <h3>イメージダウンロード</h3>
 
-<p><a href="https://erpnext.com/downloads/ERPNext-100915.ova">https://erpnext.com/downloads/ERPNext-100915.ova</a> (1.1GB, MD5 Checksum - 753d07d58dfc03ba0d4793b768e69760)</p>
-<p>作成日時：2015/9/10</p>
+<p><a href="http://build.erpnext.com/ERPNext-190416.ova">ERPNext-190416.ova</a> (1.26 GB, MD5 Checksum - 0abf819823742971ed6bdf84277036a2)</p>
+<p>作成日時 2016/04/19</p>
 <hr>
 <h3>イメージアップデート</h3>
-<p>VM内のERPNextをアップデートする場合、Virtual Boxのシェル (username: "erpnext", password: "erpnext") にログインし、次の通り実行します。
+<p>VM内のERPNextをアップデートする場合、Virtual Boxのシェル (username: "frappe", password: "frappe") にログインし、次の通り実行します。
 </p>
 <pre>cd frappe-bench
 bench update
