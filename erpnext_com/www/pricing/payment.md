@@ -19,12 +19,7 @@
 			{"name": "25 users, 10GB space", "usd": "$ 600"},
 			{"name": "100 users, 20GB space", "usd": "$ 1500"},
 			{"name": "Unlimited users, 50GB space", "usd": "$ 3000"},
-			{"name": "Single Instance Server Support", "usd": "$ 1000"},
-			{"name": "Multitenant Server Support", "usd": "$ 3000"},
-			{"name": "Assisted Development", "usd": "$ 5000"},
-			{"name": "Developer Training", "usd": "$ 1500"},
-			{"name": "User Training", "usd": "$ 1500"},
-			{"name": "Sponsorship", "usd": "$ 5000"},
+			{"name": "ERPNext VIP", "usd": "$ 5000"},
 		] -%}
 			{% set inr = frappe.utils.fmt_money(
 				frappe.utils.cint(frappe.utils.flt(frappe.utils.flt(plan.usd[1:]) * 60.0 * 1.1236 / 1000.0, 0) * 1000),
@@ -78,8 +73,8 @@
 </div>
 
 <div class="india-wire-transfer-msg hidden">
-	<p>14% Service Tax is included for Indian Customers.</p>
-	
+	<p>14.5% Service Tax is included for Indian Customers.</p>
+
 	<hr>
 	<h4>Option A: Direct Transfer</h4>
 	<p>You can directly remit the amount to our bank. All bank transfer charges, if any, are to be borne by you.</p>
@@ -111,7 +106,7 @@
 			</tr>
 		</tbody>
 	</table>
-	
+
 	<hr>
 	<h4>Option B: Deposit Cash / Check</h4>
 	<p>You can also directly deposit a check to your local HDFC Bank Branch to our account:</p>
@@ -127,7 +122,7 @@
 			</tr>
 		</tbody>
 	</table>
-	
+
 	<hr>
 	<h4>Option C: Mail / Courier Us A Check</h4>
 	<p>You can send us your check by courier at:</p>
